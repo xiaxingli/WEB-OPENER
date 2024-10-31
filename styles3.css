@@ -1,0 +1,14 @@
+body {
+	height: 1000vh;
+	display: grid;
+	place-items: center;
+}
+
+.bar {
+	width: 150px;
+	max-height: 800px;
+	background: magenta;
+	position: fixed;
+	top: 50vh;
+	transform: translateY(-50%);
+}

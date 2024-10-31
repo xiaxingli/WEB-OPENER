@@ -1,0 +1,735 @@
+main {
+    width: 90vw;
+    height: 80vh;
+    background: powderblue;
+    display:grid;
+    grid-template-columns: repeat(30, 3vw);
+  
+    /*grid-template-rows: repeat(1, 100%);*/
+  }
+
+/*
+  .column {
+    background: powderblue;
+  }
+*/
+
+.ghost {
+  background: none;
+}
+
+  .top {
+    background: red;
+    color: powderblue; 
+  }
+  
+  .mid {
+    background: red;
+    color: red; 
+  }
+  
+  .bottom {
+    background: red;
+    color: powderblue; 
+  }
+  
+.column {
+  width: 3vw;
+}
+  
+
+
+
+  #col-1 {
+    grid-column-start: 1;
+  }
+
+  #ghost-1 {
+    height: 10vh;
+  }
+
+  #box-1 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 30vh;
+  }
+
+  #box-2 {
+    width: 2vw;
+    height: 0.2vh;
+  }
+
+  #box-3 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 0vh;
+  }
+
+
+  #col-2 {
+    grid-column-start: 2;
+  }
+
+  #ghost-2 {
+    height: 10vh;
+  }
+
+  #box-4 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 25vh;
+  }
+
+  #box-5 {
+    width: 2vw;
+    height: 5vh;
+  }
+
+  #box-6 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 15vh;
+  }
+
+
+
+  
+  #col-3 {
+    grid-column-start: 3;
+  }
+
+  #ghost-3 {
+    height: 10vh;
+  }
+
+  #box-7 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 22vh;
+  }
+
+  #box-8 {
+    width: 2vw;
+    height: 8vh;
+  }
+
+  #box-9 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 10vh;
+  }
+
+
+  #col-4 {
+    grid-column-start: 4;
+  }
+
+  #ghost-4 {
+    height: 10vh;
+  }
+
+  #box-10 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 40vh;
+  }
+
+  #box-11 {
+    width: 2vw;
+    height: 10vh;
+  }
+
+  #box-12 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 0vh;
+  }
+
+
+  #col-5 {
+    grid-column-start: 5;
+  }
+
+
+  #ghost-5 {
+    height: 10vh;
+  }
+
+  #box-13 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-14 {
+    background-color: powderblue;
+    color: powderblue;
+    width: 2vw;
+    height: 10vh;
+  }
+
+  #box-15 {
+    width: 2vw;
+    height: 0.2vh;
+  }
+
+
+  #col-6 {
+    grid-column-start: 6;
+  }
+
+
+  #ghost-6 {
+    height: 10vh;
+  }
+  
+  #box-16 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 15vh;
+  }
+
+  #box-17 {
+    background-color:powderblue;
+    color: powderblue;
+    width: 2vw;
+    height: 20vh;
+    border: 2px solid red;
+    box-sizing: border-box;
+  }
+
+  #box-18 {
+    margin-left: 16px;
+    width: 0.1vw;
+    height: 0vh;
+  }
+
+
+  #col-7 {
+    grid-column-start: 7;
+  }
+
+  
+  #ghost-7 {
+    height: 10vh;
+  }
+
+  #box-19 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-20 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-21 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-8 {
+    grid-column-start: 8;
+  }
+
+
+  #ghost-8 {
+    height: 10vh;
+  }
+  
+  #box-22 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-23 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-24 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-9 {
+    grid-column-start: 9;
+  }
+
+
+  #ghost-9 {
+    height: 10vh;
+  }
+
+  
+  #box-25 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-26 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-27 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-10 {
+    grid-column-start: 10;
+  }
+
+  
+  #ghost-10 {
+    height: 10vh;
+  }
+
+
+  #box-28 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-29 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-30 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-11 {
+    grid-column-start: 11;
+  }
+
+
+  #ghost-11 {
+    height: 10vh;
+  }
+  
+  #box-31 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-32 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-33 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-12 {
+    grid-column-start: 12;
+  }
+
+  
+  #ghost-12 {
+    height: 10vh;
+  }
+
+
+  #box-34 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-35 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-36 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-13 {
+    grid-column-start: 13;
+  }
+
+  
+  #ghost-13 {
+    height: 10vh;
+  }
+
+
+  #box-37 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-38 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-39 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-14 {
+    grid-column-start: 14;
+  }
+
+
+
+  #ghost-14 {
+    height: 10vh;
+  }
+  
+  #box-40 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-41 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-42 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-15 {
+    grid-column-start: 15;
+  }
+
+  
+  #ghost-15 {
+    height: 10vh;
+  }
+
+
+  #box-43 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-44 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-45 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-16 {
+    grid-column-start: 16;
+  }
+
+
+
+  #ghost-16 {
+    height: 10vh;
+  }
+  
+  #box-46 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-47 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-48 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-17 {
+    grid-column-start: 17;
+  }
+
+
+
+  #ghost-17 {
+    height: 10vh;
+  }
+  
+  #box-49 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-50 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-51 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+
+  #col-18 {
+    grid-column-start: 18;
+  }
+
+
+  #ghost-18 {
+    height: 10vh;
+  }
+  
+  #box-52 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-53 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-54 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-19 {
+    grid-column-start: 19;
+  }
+
+  
+  #ghost-19 {
+    height: 10vh;
+  }
+
+
+  #box-55 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-56 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-57 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-20 {
+    grid-column-start: 20;
+  }
+
+
+  #ghost-20 {
+    height: 10vh;
+  }
+  
+  #box-58 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-59 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-60 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-21 {
+    grid-column-start: 21;
+  }
+
+
+
+  #ghost-21 {
+    height: 10vh;
+  }
+  
+  #box-61 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-62 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-63 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-22 {
+    grid-column-start: 22;
+  }
+
+
+  #ghost-22 {
+    height: 10vh;
+  }
+  
+  #box-64 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-65 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-66 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-23 {
+    grid-column-start: 23;
+  }
+
+  
+  #ghost-23 {
+    height: 10vh;
+  }
+
+
+  #box-67 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-68 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-69 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-24 {
+    grid-column-start: 24;
+  }
+
+
+  #ghost-24 {
+    height: 10vh;
+  }
+  
+  #box-70 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-71 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-72 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+  #col-25 {
+    grid-column-start: 25;
+  }
+
+  
+  #ghost-25 {
+    height: 10vh;
+  }
+
+  #box-73 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+  #box-74 {
+    width: 2vw;
+    height: 20vh;
+  }
+
+  #box-75 {
+    width: 0.1vw;
+    height: 20vh;
+  }
+
+
+/*
+  #box-99 {
+    grid-column:14;
+    width: 0.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+
+
+  #col-14 {
+    grid-column:14;
+    grid-row:2;
+    height: 500px;
+    width: 0.1vw;
+    position: absolute;
+  }
+
+  #col-145 {
+    grid-column:14;
+    grid-row:2;
+    background: yellow;
+    height: 50px;
+    position: absolute;
+    top 500px;
+  }
+
+
+  #col-15 {
+    grid-column:15;
+  }
+  */
+
+
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: repeat (30,1fr);
+        grid-template-rows: repeat (12,1fr);
+    }
+  }
